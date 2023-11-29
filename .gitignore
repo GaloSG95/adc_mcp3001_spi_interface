@@ -1,0 +1,17 @@
+#Exclude all
+*
+!*/
+!.gitignore
+#Source files:
+#Do NOT ignore VHDL, Verilog, block diagrams or EDIF files.
+!*.vhd
+!*.v
+!*.bd
+!*.edif
+#IP files
+!*.xci
+!*.dcp
+#Project files
+!*.xpr
+#TCL - files
+!*.do
